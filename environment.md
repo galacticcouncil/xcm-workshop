@@ -56,5 +56,21 @@ using polkadot.js , connect to relay chain and then Developer -> Sudo -> parasSu
 
 Fill in the fields as shown:
 
- <img class="imageTarget" width="800" height="373" src="images/westmint-parachain.png" alt="abstract0">
+ <img width="1600" height="373" src="images/westmint-parachain.png" alt="Parachain registration">
 
+
+Wait for parachain to be onboarded. 
+
+Port is 9946.
+
+
+### Opening channels between parachains
+
+Method 1 - using polkadot-launch config:
+- TODO
+
+Method 2 - parasSudoWrapper:
+-  TODO
+
+Method 3 - manual:
+- TODO
