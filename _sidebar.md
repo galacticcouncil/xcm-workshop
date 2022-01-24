@@ -1,30 +1,24 @@
-- [Home](README.md)
-- Getting started
+- [Introduction](intro.md)
+- Setting up environment
+  - [Getting started](environment.md)
+  - [Channels](channels.md)
+  
+- XCM details
+  - [Intro](xcm-intro.md)
+  - [XCM config](xcm-config.md)
+  - [Useful Pallets](xcm-pallets.md)
 
-  - [Home](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
+- Assets
+  - [Configuration](asset-config.md)
 
-- Customization
+- Transfers
+  - [Introduction](transfer-intro.md)
+  - [Transferring KSM](transfer-ksm.md)
+  - [Transferring native asset](transfer-native.md)
+  - [Teleporting](transfer-teleport.md)
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-
-- Guide
-
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode (PWA)](pwa.md)
-  - [Server-Side Rendering (SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
-
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
-
+- Miscellaneous 
+  - Asset traps
+  - Errors
+  - Claiming
+  - Unknown tokens

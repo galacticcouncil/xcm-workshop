@@ -1,3 +1,3 @@
-# Headline
+# XCM Workshop
 
-> An awesome project.
+> Yet another workshop
