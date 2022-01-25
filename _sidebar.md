@@ -6,7 +6,7 @@
 - XCM details
   - [Intro](xcm-intro.md)
   - [XCM config](xcm-config.md)
-  - [Useful Pallets](xcm-pallets.md)
+  - [XCM Message](xcm-message.md)
 
 - Assets
   - [Configuration](asset-config.md)
