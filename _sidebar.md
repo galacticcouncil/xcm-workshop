@@ -7,6 +7,8 @@
   - [Intro](xcm-intro.md)
   - [XCM config](xcm-config.md)
   - [XCM Message](xcm-message.md)
+    - [Instructions](xcm-instructions.md)
+  - [Holding register](xcm-holding.md)
 
 - Assets
   - [Configuration](asset-config.md)

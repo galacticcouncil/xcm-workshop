@@ -66,11 +66,8 @@ Port is 9946.
 
 ### Opening channels between parachains
 
-Method 1 - using polkadot-launch config:
-- TODO
+Method 1 - using polkadot-launch config
 
-Method 2 - parasSudoWrapper:
--  TODO
+Method 2 - parasSudoWrapper
 
-Method 3 - manual:
-- TODO
+Method 3 - manual

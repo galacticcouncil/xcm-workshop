@@ -1,5 +1,15 @@
 # XCM Message
 
+Xcm Message is just ordered-set of instructions.
+
+```rust
+pub struct Xcm<Call>(pub Vec<Instruction<Call>>);
+```
+
+[List of instructions](xcm-instructions.md)
+
+
+Example:
 
 ```
 WithdrawAsset((Parent, 10_000_000_000).into()),

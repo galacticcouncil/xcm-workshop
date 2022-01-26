@@ -47,9 +47,3 @@ pub trait Config {
 }
 
 ```
-
-## Barrier
-
-## Weigher
-
-## Trader

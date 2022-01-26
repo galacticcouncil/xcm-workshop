@@ -19,6 +19,21 @@ Current XCM version is V2.
 
 Compatibility.
 
+## Sovereign parachain accounts
+
+It is an account controllable by sender or receiver chain on given chain.
+
+- Basilisk: 5Ec4AhNugFBakYoh6kD3mgCkUDhy4vVm5o78KDtG42yrXKwS
+
+- Karura: 5Ec4AhPUwPeyTFyuhGuBbD224mY85LKLMSqSSo33JYWCazU4
+
+- Statemint: 5Ec4AhPZk8STuex8Wsi9TwDtJQxKqzPJRCH7348Xtcs9vZLJ
+
+Accounts on statemint are derived from parachain id:
+- Basilisk: 5Eg2fnsikyNUt9XqekA8tKYZihPGnLYs9SkZaBQkvm1RNvdh
+ 
+- Karura: 5Eg2fntJ27qsari4FGrGhrMqKFDRnkNSR6UshkZYBGXmSuC8
+
 ## MultiLocation
 
 Multilocation type identifies any single location that can exist.
@@ -50,9 +65,9 @@ enum AssetId {
 ```
 
 ```rust
-enum AssetId {
-   Concrete(MultiLocation),
-   Abstract(BinaryBlob),
+enum Fungibility {
+   Fungible(NonZeroAmount),
+   NonFungible(AssetInstance),
 }
 ```
 
@@ -93,6 +108,3 @@ Not all chains implements this - in such case, upgrade would likely be necessary
 Basilisk registers KUSD in its asset registry - and internal asset id is assigned to the newly registered token. Asset Location is set and from that moment, any transfer from Karura with that location would be accepted and transfer executed.
 
 ### What happens if location is not set ?
-
-
-### Holding register
