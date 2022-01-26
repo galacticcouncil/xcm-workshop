@@ -67,3 +67,7 @@ hrmp.hrmpOpenChannelRequests: Option<PolkadotRuntimeParachainsHrmpHrmpOpenChanne
 ```
 
 ## Accepting a request
+
+Xcm transact from the recipient chain to accept the request
+
+0x3300010100020c000400000000070010a5d4e81300000000070010a5d4e800060002286bee1817012a080000
