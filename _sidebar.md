@@ -15,8 +15,9 @@
 
 - Transfers
   - [Introduction](transfer-intro.md)
-  - [Transferring KSM](transfer-ksm.md)
+  - [Transferring relay currency](transfer-ksm.md)
   - [Transferring native asset](transfer-native.md)
+  - [Transferring non-native asset](transfer-reserve.md)
   - [Teleporting](transfer-teleport.md)
 
 - Miscellaneous 
