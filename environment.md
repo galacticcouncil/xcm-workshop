@@ -8,7 +8,7 @@ Local environment includes:
     - Karura (ID: 2000)
     - Westmint (ID: 1000)
 
-Current version as of 23/01/2021 is **0.9.13**
+Current version as of 26/01/2021 is **0.9.15**
 
 ## Basilisk and Karura
 
@@ -35,7 +35,7 @@ rococo-local-raw.json is generated in the directory where the polkadot-launch is
 
 Clone cumulus [repository](https://github.com/paritytech/cumulus.git)
 
-Build on branch polkadot-v0.9.13
+Build on branch polkadot-v0.9.15
 
 Build genesis state and wasm:
 ```bash

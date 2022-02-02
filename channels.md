@@ -14,7 +14,7 @@ In this section, we demonstrate how to manually open channels between Karura and
 
 To check HRMP configuration -> Relay -> Chain state -> configuration -> activeConfig.
 
-There are few parameters releated to hrmp which you need to know when opnmeing a channel = max capacity, max size and deposit.
+There are few parameters related to hrmp which you need to know when opnmeing a channel = max capacity, max size and deposit.
 
 Deposit is needed for opening a channel as well as accepting an open channel request.
 
@@ -39,7 +39,7 @@ Xcm Transact message to Relay chain.
 
 0x1000010100020c000400000000070010a5d4e81300000000070010a5d4e800060002286bee381700d007000008000000401f0000
 
-To check if request has been accepted succesfully. 
+To check if request has been accepted successfully. 
 
 Relay -> Chain State -> hrmp -> hrmpOpenChannelRequests
 
